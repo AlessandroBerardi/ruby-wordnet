@@ -5,6 +5,7 @@ require 'hoe'
 Hoe.plugin :mercurial
 Hoe.plugin :yard
 Hoe.plugin :signing
+Hoe.plugin :gemspec
 
 Hoe.plugins.delete :rubyforge
 
